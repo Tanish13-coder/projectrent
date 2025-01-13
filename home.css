@@ -1,0 +1,160 @@
+{
+    padding:0;
+    margin:0;
+    color: #f4f4f4;
+}
+
+
+
+#navbar{
+    height: 100px;
+        background-color: rgba(0, 0, 0, 0.7);
+
+}
+button{
+    background-color: #ff7f50;
+        color: #f4f4f4;
+}
+.logo{
+    color: #ff7f50;
+    
+}
+a{
+    margin-right: 20px;
+     text-decoration: none;
+    color: #ff7f50;
+}
+
+h1{
+    color: #ff7f50;
+    text-align: center;
+}
+h2{
+    color: #fff;
+    text-align: center;
+}
+.contentbox{<h2 style="color: black;">Get your PG here</h2>
+
+    height: 50px;
+    width: 100px;
+    border-radius: 100%;
+    border: solid #ff7f50 2px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#content{
+    
+    text-align: center;
+}
+.infobox {
+    height: 100px;
+        width: 200px;
+        border: solid #ff7f50 2px;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#info {
+  margin-top: 30px;
+  margin-bottom: 30px;
+    text-align: center;
+}
+
+
+body {
+    background-image: url("https: //dynamic.brandcrowd.com/asset/logo/4ddb5510-7a11-4d08-9fbc-c3851b9e7760/logo-search-grid-1x?logoTemplateVersion=2&v=638282640736400000&text=rent+track");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f4f4f4;
+}
+
+footer{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);;
+    height: 50px;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #f4f4f4;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+#intro h1 {
+    font-size: 2.5em;
+    color: #ff7f50;
+    margin-bottom: 20px;
+}
+
+#intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 80%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
+#features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 20px;
+}
+
+.feature {
+    width: 300px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.feature h2 {
+    color: #ff7f50;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    #features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 80%;
+        margin: 20px 0;
+    }
+}
+
+footer {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 50px;
+    color: #f4f4f4;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 0;
+}
+ 
+
